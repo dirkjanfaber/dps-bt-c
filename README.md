@@ -1,2 +1,12 @@
-# dps-bt-c
-Simple C file to control a DPS power supply via Bluetooth
+# OS X
+
+```
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null
+brew install libmodbus
+```
+
+# building
+
+```
+make
+```
